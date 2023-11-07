@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #fffdfd;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #3498db;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -32,11 +32,14 @@ main {
 }
 
 section {
-    background-color: #fff;
+    background-color: #3498db;
     margin: 20px 0;
     padding: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
+    background-image: url('jaja.png');
+    background-size: cover;
+    background-position: center;
 }
 
 h2 {

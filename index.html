@@ -26,10 +26,32 @@
     <main>
     </main>
     <footer>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <div class="centered-text">
-                <p><a href="mailto:correo@ejemplo.com">wendyvanessacorzo@gmail.com</a></p></p>
+        <section id="Registro">
+            <title>Registro de Pacientes</title>
+        </head>
+        <body>
+            <h1>Registro de Pacientes</h1>
+            <form action="procesar_registro.php" method="post">
+                <label for="nombre">Nombre del Paciente:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+        
+                <label for="edad">Edad del Paciente:</label>
+                <input type="number" id="edad" name="edad" required><br><br>
+        
+                <label for="sexo">Sexo:</label>
+                <input type="radio" id="sexo" name="sexo" value="masculino"> Masculino
+                <input type="radio" id="sexo" name="sexo" value="femenino"> Femenino<br><br>
+        
+                <label for="diagnostico">Diagnóstico:</label>
+                <textarea id="diagnostico" name="diagnostico" required></textarea><br><br>
+        
+                <label for="fecha_ingreso">Fecha de Ingreso:</label>
+                <input type="date" id="fecha_ingreso" name="fecha_ingreso" required><br><br>
+        
+                <label for="habitacion">Número de Habitación:</label>
+                <input type="text" id="habitacion" name="habitacion" required><br><br>
+        
+                <input type="submit" value="Registrar Paciente">
             </div>
         </section>
         <p>&copy; 2023 Vanessa</p>
